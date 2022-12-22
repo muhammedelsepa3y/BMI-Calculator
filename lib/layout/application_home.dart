@@ -21,7 +21,7 @@ class _HomePageeState extends State<HomePagee> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                Image.asset("logo.jpg",height: 150,width: 150,),
+                Image.asset("Assets/logo.jpg",height: 150,width: 150,),
                 SizedBox(height: 15,),
                 Text("BMI Calculator",style: TextStyle(
                     fontSize: 35,
@@ -39,7 +39,7 @@ class _HomePageeState extends State<HomePagee> {
                 height: 70,
                 onPressed: () {
                   setState(() {
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>BMI_Screen()));
+                    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>BMI_Screen()));
                   });
                 },
                 child: Text(

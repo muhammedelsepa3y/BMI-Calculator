@@ -60,7 +60,7 @@ class _BMI_ScreenState extends State<BMI_Screen> {
                           Container(
                             width: 70,
                               height: 70,
-                              child: Image.asset("male.png")),
+                              child: Image.asset("Assets/male.png")),
                           SizedBox(height: 15,),
                           Text("MALE",style: TextStyle(
                             fontSize: 25,
@@ -88,7 +88,7 @@ class _BMI_ScreenState extends State<BMI_Screen> {
                           Container(
                               width: 70,
                               height: 70,
-                              child: Image.asset("female.png")),
+                              child: Image.asset("Assets/female.png")),
                           SizedBox(height: 15,),
                           Text("FEMALE",style: TextStyle(
                             fontSize: 25,
